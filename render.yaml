@@ -10,7 +10,7 @@ services:
         value: "10000"
       # Heap must stay below instance RAM (see https://render.com/docs/blueprint-spec#plan).
       - key: NODE_OPTIONS
-        value: "--max-old-space-size=3072"
+        value: "--max-old-space-size=256"
       - key: OPENCLAW_STATE_DIR
         value: /data/.openclaw
       - key: OPENCLAW_WORKSPACE_DIR
