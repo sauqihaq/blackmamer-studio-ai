@@ -12,7 +12,7 @@ services:
       - key: NODE_OPTIONS
         value: "--max-old-space-size=256"
       - key: OPENCLAW_STATE_DIR
-        value: /data/.openclaw
+        value: /tmp/openclaw/state
       - key: OPENCLAW_WORKSPACE_DIR
         value: /data/workspace
       - key: OPENCLAW_GATEWAY_TOKEN
